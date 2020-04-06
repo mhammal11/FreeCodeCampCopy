@@ -1,8 +1,7 @@
 ---
-id: 561add10cb82ac38a17213bc
-title: 'Information Security and Quality Assurance Certificate'
+id: 5e611829481575a52dc59c0e
+title: 'Quality Assurance Certificate'
 challengeType: 7
-isHidden: false
 isPrivate: true
 ---
 
@@ -21,20 +20,16 @@ isPrivate: true
 
 ```yml
 tests:
-  - id: 587d8249367417b2b2512c42
-    title: Issue Tracker
   - id: 587d8249367417b2b2512c41
     title: Metric-Imperial Converter
+  - id: 587d8249367417b2b2512c42
+    title: Issue Tracker
   - id: 587d824a367417b2b2512c43
     title: Personal Library
-  - id: 587d824a367417b2b2512c44
-    title: Stock Price Checker
-  - id: 587d824a367417b2b2512c45
-    title: Anonymous Message Board
-  - id: 5e46f979ac417301a38fb932
-    title: Port Scanner
-  - id: 5e46f983ac417301a38fb933
-    title: SHA-1 Password Cracker
+  - id: 5e601bf95ac9d0ecd8b94afd
+    title: Sudoku Solver
+  - id: 5e601c0d5ac9d0ecd8b94afe
+    title: American British Translator
 ```
 
 </section>
