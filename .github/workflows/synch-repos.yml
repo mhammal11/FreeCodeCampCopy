@@ -57,3 +57,11 @@ jobs:
           echo "${PWD}"
           ls
           bash ${PWD}/freeCodeCamp/git_synch.sh
+      - name: Create PR
+        env:
+          SSH_AUTH_SOCK: /tmp/ssh_agent.sock
+          GH_TOKEN: ${{ secrets.OTHER_REPO_SSH_TOKEN }}
+        run: |
+          ls
+          cd ../FreeCodeCampCopy
+          gh pr create -B sample -H main --title 'Merge main into sample' --body 'Created by Github action'
